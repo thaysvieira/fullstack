@@ -20,6 +20,7 @@ public class FullstackApplication {
 	}
 	@Bean
 	CommandLineRunner runner(CustomerRepository customerRepository) {
+
 		return args -> {
 			Customer alex = new Customer(
 					"Alex",
